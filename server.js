@@ -10,8 +10,10 @@ var app = express();
 app.set('view engine', 'ejs');
 app.set('views', __dirname+'/src/views/');
 
+app.use(express.static(__dirname + '/public'));
+
 //Pull in routes
-app.require('./routes.js')(app);
+require('./routes.js')(app);
 
 //Start app
 app.listen(8080)

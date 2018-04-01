@@ -1,0 +1,16 @@
+#data-in{
+    resize: none;
+    margin-bottom: 2%;
+    min-height: 500px;
+}
+
+.data-button{
+    margin-left: 10%;
+}
+
+#footer{
+    margin-top: 5%;
+    background-color: #333333;
+    color: #FFFFFF;
+    min-height: 150px;
+}
